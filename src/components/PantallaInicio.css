@@ -1,0 +1,79 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: url(./IMG_9464.png) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    z-index: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+  
+  .botonRegistro {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+  
+  .botonRegistro:hover {
+    background-color: #2980b9;
+  }
+  
+  .botonSesion {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    z-index: 999;
+  }
+  
+  .botonSesion:hover {
+    background-color: #2980b9;
+  }
+
+  .titulo {
+    font-size: 900px;
+    font-weight: bold;
+    text-align: center;
+    color: #e6962e;
+    text-shadow: 1px 1px #ccc;
+    margin: 20px 0;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
